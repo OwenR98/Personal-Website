@@ -4408,6 +4408,18 @@ eval("var g;\n\n// This works in non-strict mode\ng = function () {\n  return th
 
 /***/ }),
 
+/***/ "./src/Components/Header.tsx":
+/*!***********************************!*\
+  !*** ./src/Components/Header.tsx ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.Header = void 0;\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\nvar Header = function Header() {\n  return /*#__PURE__*/_react.default.createElement(\"p\", null, \" Hello World\");\n};\nexports.Header = Header;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvQ29tcG9uZW50cy9IZWFkZXIudHN4LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL3NyYy9Db21wb25lbnRzL0hlYWRlci50c3g/YzFiMiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XHJcblxyXG5leHBvcnQgY29uc3QgSGVhZGVyOiBSZWFjdC5GQyA9ICgpID0+IHtcclxuICAgIHJldHVybiA8cD4gSGVsbG8gV29ybGQ8L3A+O1xyXG59O1xyXG4iXSwibWFwcGluZ3MiOiI7Ozs7QUFBQTtBQUFBO0FBRUE7QUFDQTtBQUNBO0FBQUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Components/Header.tsx\n");
+
+/***/ }),
+
 /***/ "./src/PersonalWebsite.tsx":
 /*!*********************************!*\
   !*** ./src/PersonalWebsite.tsx ***!
@@ -4416,7 +4428,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = function () {\n  return th
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nexports.__esModule = true;\nexports.PersonalWebsite = void 0;\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\nvar PersonalWebsite = function PersonalWebsite() {\n  return /*#__PURE__*/_react.default.createElement(\"p\", null, \" Hello World\");\n};\nexports.PersonalWebsite = PersonalWebsite;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvUGVyc29uYWxXZWJzaXRlLnRzeC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9zcmMvUGVyc29uYWxXZWJzaXRlLnRzeD80YmViIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuXHJcbmV4cG9ydCBjb25zdCBQZXJzb25hbFdlYnNpdGU6IFJlYWN0LkZDID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuIDxwPiBIZWxsbyBXb3JsZDwvcD47XHJcbn07XHJcbiJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBO0FBQUE7QUFFQTtBQUNBO0FBQ0E7QUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/PersonalWebsite.tsx\n");
+eval("\n\nexports.__esModule = true;\nexports.PersonalWebsite = void 0;\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar _Header = __webpack_require__(/*! ./Components/Header */ \"./src/Components/Header.tsx\");\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\nvar PersonalWebsite = function PersonalWebsite() {\n  return /*#__PURE__*/_react.default.createElement(\"div\", null, /*#__PURE__*/_react.default.createElement(_Header.Header, null), /*#__PURE__*/_react.default.createElement(\"p\", null, \" Hello World\"));\n};\nexports.PersonalWebsite = PersonalWebsite;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvUGVyc29uYWxXZWJzaXRlLnRzeC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9zcmMvUGVyc29uYWxXZWJzaXRlLnRzeD80YmViIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IHsgSGVhZGVyIH0gZnJvbSBcIi4vQ29tcG9uZW50cy9IZWFkZXJcIjtcclxuXHJcbmV4cG9ydCBjb25zdCBQZXJzb25hbFdlYnNpdGU6IFJlYWN0LkZDID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICA8SGVhZGVyIC8+XHJcbiAgICAgICAgICAgIDxwPiBIZWxsbyBXb3JsZDwvcD5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICk7XHJcbn07XHJcbiJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBO0FBQ0E7QUFBQTtBQUVBO0FBQ0E7QUFNQTtBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/PersonalWebsite.tsx\n");
 
 /***/ }),
 
